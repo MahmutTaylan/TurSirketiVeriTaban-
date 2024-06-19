@@ -2,11 +2,11 @@
 Tur Şirketi veritabanınızı oluşturma.  Excel dosyasındaki verileri kayıt etme.
 
 
-Tur Şİrketinin Özellikleri
+# Tur Şİrketinin Özellikleri
 
 İstanbul’un çeşitli yerlerini turistlere rehberler eşliğinde gezdiren ve tanıtan bir tur şirketimiz var. Turlar günlük turlar ve bir günde sadece bir bölge ziyaret edilebiliyor.
 
-Rehberler:
+# Rehberler:
 
 - Rehberlerimiz en az bir dil biliyor. (Kadın veya erkek olabiliyor.)
 
@@ -14,13 +14,13 @@ Rehberler:
 
 - Rehberlerin Ad, Soyad, iletişim bilgileri sistemde mevcut.
 
-Turistler:
+# Turistler:
 
 - Kayıt açılırken Ad, Soyad, Türkiye’ye geliş tarihleri, cinsiyet, ülke, uyruk bilgileri gibi bilgileri alınıyor.
 
 - Kayıt günü rehber atamaları yapılıyor ve alacağı turların faturası kesiliyor.
 
-Gezilecek yerler:
+# Gezilecek yerler:
 
 - Her biri için farklı ücret mevcut. (Ulaşım, Müze girişi vs. sebebiyle)
 
@@ -28,23 +28,23 @@ Gezilecek yerler:
 
 - 10 yaş altı çocuklar için yarım, 60 yaş üstü için indirimli, diğerleri için tam ücret kesilecek.
 
-Ülke-Uyruk-Dil:
+# Ülke-Uyruk-Dil:
 
 - Ülke ve Diller tanımlanırken primary key olarak dil ve ülke kodları kullanılacak. (TR, UK gibi.)
 
-Ödeme:
+# Ödeme:
 
 - Bir faturada birkaç tur olabiliyor.
 
 - Bir tura birden fazla kişi için bilet alınabiliyor. (Ödeme kredi kartı veya nakit olabiliyor)
 
-Kısıtlar:
+# Kısıtlar:
 
 - Boş geçilmemesi gereken alanlara NOT NULL constraint verilmeli.
 
 - Rehberlerde Adres kolonunda değer girilmemişse Bilinmiyor yazsın.
 
-Yapılması İstenilen SQL Sorguları
+# Yapılması İstenilen SQL Sorguları
 
 --1-Rehberlerimin bu zamana kadar ilgilendikleri tüm turistleri ülke ve uyruk bilgileri ile getiriniz.
 
